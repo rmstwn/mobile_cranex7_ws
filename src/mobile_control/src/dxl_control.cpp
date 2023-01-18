@@ -2,7 +2,7 @@
 #include <mobile_control/dxl_control.h>
 #include <std_msgs/Float64.h>
 
-std_msgs::Float64 v1, v2, v3, v4, v5;
+std_msgs::Float64 v1, v2, v3, v4;
 
 void filterVelocityCallback(const trajectory_msgs::JointTrajectory &traj)
 {
