@@ -1,0 +1,8 @@
+prefix=/home/ntlab/mobile_cranex7_ws/devel
+
+Name: kinematics_mecanum
+Description: Description of kinematics_mecanum
+Version: 0.0.0
+Cflags: -I/home/ntlab/mobile_cranex7_ws/src/kinematics_mecanum/common/include
+Libs: -L${prefix}/lib -lkinematics_mecanum
+Requires: nav_msgs roscpp sensor_msgs std_msgs tf trajectory_msgs

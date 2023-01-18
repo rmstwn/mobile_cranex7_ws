@@ -1,0 +1,8 @@
+prefix=/home/ntlab/mobile_cranex7_ws/install
+
+Name: mobile_control
+Description: Description of mobile_control
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lmobile_control
+Requires: roscpp dynamixel_sdk std_msgs trajectory_msgs sensor_msgs

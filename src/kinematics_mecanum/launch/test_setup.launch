@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<launch>
+	
+	<!-- upload parameters -->
+        <rosparam command="load" ns="kinematics_mecanum" file="$(find kinematics_mecanum)/launch/test_setup.yaml"/>
+	
+	<!-- start kinematics node -->
+        <node pkg="kinematics_mecanum" type="kinematics_mecanum_node" ns="kinematics_mecanum" name="kinematics_mecanum_node" respawn="false" output="screen"/>
+
+        <!-- start Dynamixel control node -->
+        <!-- <node pkg="dxl_control" type="dxl_control_node" ns="dxl_control" name="dxl_control_node" respawn="false" output="screen"/> -->
+
+</launch>

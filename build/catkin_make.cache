@@ -1,0 +1,2 @@
+kinematics_mecanum:mobile_control
+-DCATKIN_DEVEL_PREFIX=/home/ntlab/mobile_cranex7_ws/devel -DCMAKE_INSTALL_PREFIX=/home/ntlab/mobile_cranex7_ws/install -G Unix Makefiles
